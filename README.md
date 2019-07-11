@@ -1,4 +1,7 @@
 # System-Verilog-Example
+
+# Behavioral Data Types:   
+
 Example code for string declaration
 
 
@@ -27,3 +30,23 @@ Example code for string declaration
       string 3 s3 = 30
       string 4 s4 = I am , 30 years old 
           
+
+# Enumeration Type [DataTypes] 
+
+Example shows how to declare enum
+
+      module enum_data_type;
+      //declaration
+      enum { red, green, blue, yellow, white, black} Colours;
+  
+      //display members of Colours
+  
+            initial begin
+            Colours = Colours.first;
+    
+                  for (int i=0; i<6; i++) begin
+                        $display ("Colours :: Value of %0s \t is = %0d", Colours.name, Colours);
+                        Colours = Colours.next;
+                  end
+            end
+      endmodule
