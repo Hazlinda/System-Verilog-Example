@@ -19,5 +19,11 @@ Example code for string declaration
         $display ("string 4 s4 = %0s, %0d",s4, s3, s5);
       end 
       endmodule
-      
-      
+
+ V C S   S i m u l a t i o n   R e p o r t 
+ 
+      string 1 s1 = Hazlinda
+      string 2 s2 = Hi, I am Hazlinda
+      string 3 s3 = 30
+      string 4 s4 = I am , 30 years old 
+          
