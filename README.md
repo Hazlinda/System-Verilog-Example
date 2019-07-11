@@ -50,3 +50,13 @@ Example shows how to declare enum
                   end
             end
       endmodule
+      
+ V C S   S i m u l a t i o n   R e p o r t 
+ 
+      Colours :: Value of red 	 is = 0
+      Colours :: Value of green 	 is = 1
+      Colours :: Value of blue 	 is = 2
+      Colours :: Value of yellow 	 is = 3
+      Colours :: Value of white 	 is = 4
+      Colours :: Value of black 	 is = 5
+          
