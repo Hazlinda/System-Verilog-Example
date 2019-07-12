@@ -116,7 +116,7 @@ Example shows how to set other than default values to an enum
           pkt_b is BAD packet
            
            
-  
+ Example shows how to use enumeration methods.  
   
       module enum_datatype;
       //declaration
