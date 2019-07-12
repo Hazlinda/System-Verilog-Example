@@ -167,4 +167,17 @@ Example shows how to set other than default values to an enum
       Last members in alphabets is 	 g , 	 value is 6
       3rd members from last in alphabets is 	 d , 	 value is 3
           
-           
+ # Class Data Types
+ 
+A Class is a collection of data and a set of subroutines that operate on that data. The data in a class are referred to as class properties, and its subroutines are called methods.A Class is declared using the class...endclass keywords.
+ 
+      class packet;
+      // Properties
+      bit [31:0] address;
+      bit [31:0] data   ;
+   
+      // Method
+      function new();
+      $display("Inside new Function of packet");
+      endfunction 
+      endclass : packet
